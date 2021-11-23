@@ -15,7 +15,33 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
-
 body {
-    background: #98511a;
+    background-image: linear-gradient(to bottom right, #ffffff, rgba(109, 234, 167, 0.59));
+}
+
+#cabecera{
+    text-align: center;
+    width: 1000px;
+    height: 90px;
+    padding: 20px;
+    border: 8px solid rgba(109, 234, 167, 0.59);
+    background: #d7d5d5;
+
+}
+
+.rojo{
+    box-sizing: content-box;
+    /* Ancho  total: 160px + (2 * 20px) + (2 * 8px) = 216px
+       Altura total: 80px + (2 * 20px) + (2 * 8px) = 136px
+       Ancho de la caja de contenido: 160px
+       Altura de la caja de contenido: 80px */
+}
+#cuerpo{
+
+    text-align: center;
+}
+
+#redir{
+    font: condensed 100% sans-serif;
+
 }
